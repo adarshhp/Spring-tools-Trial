@@ -2,7 +2,7 @@ package com.example.demo.model;
 
 import java.time.LocalDateTime;
 
-public class Sample {
+public class Sample1 {
 
 	    private Long id;
 	    private String name;
@@ -10,9 +10,9 @@ public class Sample {
 	    private LocalDateTime createdAt;
 
 	    // Constructors
-	    public Sample() {}
+	    public Sample1() {}
 
-	    public Sample(Long id, String name, String email, LocalDateTime createdAt) {
+	    public Sample1(Long id, String name, String email, LocalDateTime createdAt) {
 	        this.id = id;
 	        this.name = name;
 	        this.email = email;
