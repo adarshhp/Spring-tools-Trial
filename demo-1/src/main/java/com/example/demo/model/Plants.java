@@ -35,5 +35,8 @@ public int getIs_deleted() {
 public void setIs_deleted(int is_deleted) {
 	this.is_deleted = is_deleted;
 }
+public void hello() {
+	System.out.println("hello manhhh");
+}
   
 }
