@@ -14,7 +14,7 @@ import org.springframework.transaction.annotation.Transactional; // Use Spring's
 import java.util.List;
 
 @Service
-public class UserService {
+public class UserService implements Iservice {
 
     private final UserRepository userRepo;
     private final MappedRepository mappedRepo;
@@ -70,7 +70,6 @@ public class UserService {
     	postPlantResponse.setPlantName(Plant.getPlantname());
     	postPlantResponse.setPlantColor(Plant.getPlantcolor());
     	
-    	return postPlantResponse;
-    	
+    	return postPlantResponse;	
     }
 }

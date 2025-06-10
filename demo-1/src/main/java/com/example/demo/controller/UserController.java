@@ -4,6 +4,7 @@ import com.example.demo.dto.PlantDTO;
 import com.example.demo.model.Plants;
 import com.example.demo.model.User;
 import com.example.demo.model.responses.PostPlantResponse;
+import com.example.demo.service.Iservice;
 import com.example.demo.service.UserService;
 
 import jakarta.validation.Valid;
@@ -18,7 +19,7 @@ import java.util.List;
 @RequestMapping("/api/users")
 public class UserController {
 
-    private final UserService service;
+    private final Iservice service;
     
     public UserController(UserService service) {
         this.service = service;
